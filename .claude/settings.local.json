@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"Get-ChildItem -Path $env:USERPROFILE\\\\.claude -Force 2>$null | Select-Object -ExpandProperty Name\")",
+      "Bash(powershell -Command \"$env:USERPROFILE\")",
+      "Bash(set:*)",
+      "Bash(openspec new:*)",
+      "Bash(openspec status:*)",
+      "Bash(openspec instructions proposal:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "msix-psf-coach"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "msix-psf-coach": {
+      "command": "node",
+      "args": ["C:/temp/MSIX-MCP/msix-psf-coach-mcp/dist/index.js"],
+      "env": {
+        "KNOWLEDGE_BASE_PATH": "C:/temp/MSIX-MCP/msix-psf-coach-mcp/knowledge"
+      }
+    }
+  }
+}
